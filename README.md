@@ -2,7 +2,7 @@
 
 A sleek, modern, and interactive calculator built using **HTML5**, **CSS3 (Neumorphic Design)**, and **Vanilla JavaScript**. This project features a clean dark-themed UI with a functional sidebar to track your recent calculation history.
 
-![Calculator Preview](https://via.placeholder.com/800x400?text=Neumorphic+Calculator+Preview) ## ✨ Features
+## ✨ Features
 
 * **Neumorphic UI:** Soft shadows and highlights for a realistic, 3D-pressed effect.
 * **Calculation History:** Automatically saves your last calculations in a dedicated side panel.
