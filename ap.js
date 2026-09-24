@@ -1,7 +1,15 @@
 let inputBox = document.getElementById("inputBox");
-let buttons = document.querySelectorAll("button");
+let buttons = document.querySelectorAll(".keypad button");
 let historyList = document.getElementById("historyList");
 let clearHistoryBtn = document.getElementById("clearHistory");
+let historyToggle = document.getElementById("historyToggle");
+let historyCard = document.getElementById("historyCard");
+
+if (historyToggle) {
+    historyToggle.addEventListener("click", () => {
+        historyCard.classList.toggle("active");
+    });
+}
 
 let string = "";
 
@@ -66,6 +74,7 @@ function addHistory(expression, result) {
     div.onclick = () => {
         string = result;
         inputBox.value = string;
+        historyCard.classList.remove("active");
     };
 
     historyList.prepend(div);
